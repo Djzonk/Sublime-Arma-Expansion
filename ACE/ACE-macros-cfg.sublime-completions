@@ -1,0 +1,9 @@
+{
+    "scope": "source.c++",
+    "completions": [
+        { "trigger": "MACRO_ADDBACKPACK()\tSimplifies the process of adding backpacks. Dont use \"\"", "contents": "MACRO_ADDBACKPACK(${1:BACKPACK},${2:COUNT})" },
+        { "trigger": "MACRO_ADDITEM()\tSimplifies the process of adding items. Dont use \"\"", "contents": "MACRO_ADDITEM(${1:ITEM},${2:COUNT})" },
+        { "trigger": "MACRO_ADDMAGAZINE()\tSimplifies the process of adding magazines. Dont use \"\"", "contents": "MACRO_ADDMAGAZINE(${1:MAGAZINE},${2:COUNT})" },
+        { "trigger": "MACRO_ADDWEAPON()\tSimplifies the process of adding weapons. Dont use \"\"", "contents": "MACRO_ADDWEAPON(${1:WEAPON},${2:COUNT})" },
+    ]
+}

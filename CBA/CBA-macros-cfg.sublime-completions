@@ -1,0 +1,19 @@
+{
+    "scope": "source.c++",
+    "completions": [
+        { "trigger": "ARR_1()\tFor working around , in macros", "contents": "ARR_1(${1:ARG1})" },
+        { "trigger": "ARR_2()\tFor working around , in macros", "contents": "ARR_2(${1:ARG1},${2:ARG2})" },
+        { "trigger": "ARR_3()\tFor working around , in macros", "contents": "ARR_3(${1:ARG1},${2:ARG2},${3:ARG3})" },
+        { "trigger": "ARR_4()\tFor working around , in macros", "contents": "ARR_4(${1:ARG1},${2:ARG2},${3:ARG3},${4:ARG4})" },
+        { "trigger": "ARR_5()\tFor working around , in macros", "contents": "ARR_5(${1:ARG1},${2:ARG2},${3:ARG3},${4:ARG4},${5:ARG5})" },
+        { "trigger": "ARR_6()\tFor working around , in macros", "contents": "ARR_6(${1:ARG1},${2:ARG2},${3:ARG3},${4:ARG4},${5:ARG5},${6:ARG6})" },
+        { "trigger": "ARR_7()\tFor working around , in macros", "contents": "ARR_7(${1:ARG1},${2:ARG2},${3:ARG3},${4:ARG4},${5:ARG5},${6:ARG6},${7:ARG7})" },
+        { "trigger": "ARR_8()\tFor working around , in macros", "contents": "ARR_8(${1:ARG1},${2:ARG2},${3:ARG3},${4:ARG4},${5:ARG5},${6:ARG6},${7:ARG7},${8:ARG8})" },
+        { "trigger": "CSTRING()", "contents": "CSTRING(${1:TAG})" },
+        { "trigger": "ECSTRING()", "contents": "ECSTRING(${1:COMPONENT},${1:TAG})" },
+        { "trigger": "PREP()\tUsed in XEH_PREP", "contents": "PREP(${1:$SELECTION});" },
+        { "trigger": "QQEGVAR()\tSame as EGVAR but wrapped in 2 sets of \"\"", "contents": "QQEGVAR(${1:COMPONENT},${2:TAG})" },
+        { "trigger": "QQGVAR()\tSame as GVAR but wrapped in 2 sets of \"\"", "contents": "QQGVAR(${1:TAG})" },
+        { "trigger": "QUOTE()\tSurrounds content in \"\"", "contents": "QUOTE(${1:contents})" },
+    ]
+}

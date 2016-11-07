@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Author: [Name of Author(s)]
+ * [Description]
+ *
+ * Arguments:
+ * 0: Argument Name <TYPE>
+ *
+ * Return Value:
+ * Return Name <TYPE>
+ *
+ * Example:
+ * ["example"] call ${TM_FILEPATH/(\/\w+\/|\.sqf)|((?<=\/\w\/)\w+)|((?<=\/addons\/)\w+)|((?<=\/functions\/)\w+)/\L$2(?3_$3)\E(?4_$4)/ig}
+ * 
+ * Public: [Yes/No]
+ */
+#include "script_component.hpp"
+
+
+]]></content>
+	<tabTrigger>header</tabTrigger>
+	<description>Default function Header</description>
+	<scope>source.sqf</scope>
+</snippet>
