@@ -1,0 +1,3 @@
+[
+	 { "caption": "Arma: New Function", "command": "new_sqf_function", "args": {"project": "${project}"}}
+]
