@@ -4,7 +4,6 @@
         "mnemonic": "A",
         "id": "arma",
         "children": [
-            { "command": "new_arma_project", "caption": "Create New Arma Project" },
             { "command": "new_sqf_function", "caption": "Create New function" },
         ]
     }
