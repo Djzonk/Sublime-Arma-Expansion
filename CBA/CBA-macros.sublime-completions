@@ -20,7 +20,7 @@
         { "trigger": "QPATHTOEF()\tSame as PATHTOEF but wrapped in \"\"", "contents": "QPATHTOEF(${1:COMPONENT},${2:NAME})" },
         { "trigger": "QPATHTOF()\tSame as PATHTOF but wrapped in \"\"", "contents": "QPATHTOF(${1:NAME})" },
         { "trigger": "QQFUNC()\tSame as FUNC but wrapped in 2 sets of \"\"", "contents": "QQFUNC(${1:NAME})" },
-        { "trigger": "QQQEFUNC()\tSame as EFUNC but wrapped in 2 sets of \"\"", "contents": "QQQEFUNC(${1:COMPONENT},${2:NAME})" },
+        { "trigger": "QQEFUNC()\tSame as EFUNC but wrapped in 2 sets of \"\"", "contents": "QQEFUNC(${1:COMPONENT},${2:NAME})" },
         { "trigger": "TRACE_1()\tLog a message and 1-8 variables to the RPT log", "contents": "TRACE_1(${1:MESSAGE},${2:ARG1})" },
         { "trigger": "TRACE_2()\tLog a message and 1-8 variables to the RPT log", "contents": "TRACE_2(${1:MESSAGE},${2:ARG1},${3:ARG2})" },
         { "trigger": "TRACE_3()\tLog a message and 1-8 variables to the RPT log", "contents": "TRACE_3(${1:MESSAGE},${2:ARG1},${3:ARG2},${4:ARG3})" },
